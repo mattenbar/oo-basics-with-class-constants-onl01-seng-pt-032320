@@ -14,9 +14,10 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
-#getter for genre that also pushes the genre to the class constant GENRES 
+#getter for genre that also pushes the genre to the class constant GENRES
   def genre= (genre)
     @genre = genre
     GENRES << genre
+  end
 
 end
